@@ -30,6 +30,8 @@ public class Cat {
 		g2.fillRect(20,30,100,400);
 		g2.setColor(Color.GREEN);
 		g2.fillRect(120, 30, 100, 400);
+		g2.setColor(Color.GRAY);
+		g2.fillRect(40, 200, 120, 20);
 		// Draw the head
 		g2.setColor(Color.cyan);
 		g2.fillOval(x, y, HEAD_DIMENSION, HEAD_DIMENSION/2);
@@ -48,7 +50,7 @@ public class Cat {
 		g2.setColor(Color.black);
 		// Meow text appears below cat head, +10 places below 
 		// so it doesn't overlap the drawing
-		g2.drawString("M E O W", catX, catY+HEAD_DIMENSION+10);	
+		g2.drawString("M E O W B O I S", catX, catY+HEAD_DIMENSION+10);	
 		g2.drawString("John give me L A S A G A", 40, 90);
 
 	}
